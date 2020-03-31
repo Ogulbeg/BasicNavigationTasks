@@ -19,7 +19,7 @@ public class TitleVerification {
 //        WebDriverManager.chromedriver().version("79").setup();
 //        WebDriver driver = new ChromeDriver();
 
-        driver=BrowserFactory.getDriver("chrome");
+        driver = BrowserFactory.getDriver();
 
         Set<String> unique = new HashSet<>();
         for (String each:urls) {

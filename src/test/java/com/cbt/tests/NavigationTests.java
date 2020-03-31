@@ -27,7 +27,7 @@ public class NavigationTests {
  */
 
     public static void chromeTest() throws Exception {
-        driver = BrowserFactory.getDriver("chrome");
+        driver = BrowserFactory.getDriver();
 
         driver.get("https://google.com");
         String title = driver.getTitle();
@@ -47,7 +47,7 @@ public class NavigationTests {
     }
 
     public static void fireFoxTest() throws Exception {
-        driver = BrowserFactory.getDriver("firefox");
+        driver = BrowserFactory.getDriver();
         driver.get("https://google.com");
         String title = driver.getTitle();
 
@@ -66,7 +66,7 @@ public class NavigationTests {
     }
 
     public static void safariTest() throws Exception {
-        driver = BrowserFactory.getDriver("safari");
+        driver = BrowserFactory.getDriver();
 
 
         driver.get("https://google.com");
